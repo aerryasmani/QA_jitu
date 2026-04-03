@@ -10,5 +10,6 @@
     "vendor",
     "__pycache__",
     ".venv"
-  ]
+  ],
+  "java.compile.nullAnalysis.mode": "automatic"
 }
