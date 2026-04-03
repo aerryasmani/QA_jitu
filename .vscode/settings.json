@@ -1,0 +1,14 @@
+{
+  "git.autoRepositoryDetection": false,
+  "git.repositoryScanMaxDepth": 1,
+  "git.repositoryScanIgnoredFolders": [
+    "node_modules",
+    "target",
+    "dist",
+    "build",
+    ".cache",
+    "vendor",
+    "__pycache__",
+    ".venv"
+  ]
+}
