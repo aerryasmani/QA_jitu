@@ -31,7 +31,7 @@ public class TC_LP_01_PageLoadTest extends BaseTest {
     @Test
     @DisplayName("LP-003 | Logo is visible")
     void LP_003_logoIsVisible() {
-        WebElement logo = driver.findElement(By.cssSelector("img[alt*='logo']"));
+        WebElement logo = driver.findElement(By.cssSelector("a._logo_236fd_14"));
         assertTrue(logo.isDisplayed());
     }
 }
