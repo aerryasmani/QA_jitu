@@ -1,4 +1,4 @@
-package com.jitu.landingpage;
+package com.jitu.landingpage; //This is basically your file path. For the context of it's after the java\ is the package com.jitu.[FolderName]
 
 import com.jitu.common.BaseTest;
 import org.junit.jupiter.api.*;
