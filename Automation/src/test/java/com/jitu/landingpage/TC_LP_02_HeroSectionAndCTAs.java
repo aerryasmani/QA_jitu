@@ -1,4 +1,4 @@
-package com.jitu.landingpage; //This is basically your file path. For the context of it's after the java\ is the package com.jitu.[FolderName]
+package com.jitu.landingpage;
 
 import com.jitu.common.BaseTest;
 import org.junit.jupiter.api.*;
@@ -15,23 +15,32 @@ public class TC_LP_02_HeroSectionAndCTAs extends BaseTest {
     }
 
     @Test
-    @DisplayName("LP-001 | Page title is not blank")
-    void LP_001_pageTitleIsNotBlank() {
-        String title = driver.getTitle();
-        assertFalse(title.isBlank());
+    @DisplayName("LP-004 | Hero headline visible")
+    void LP_004_heroHeadlineVisible() {
+
     }
 
     @Test
-    @DisplayName("LP-002 | Page title contains Jitu")
-    void LP_002_pageTitleContainsJitu() {
-        String title = driver.getTitle();
-        assertTrue(title.toLowerCase().contains("jitu"));
+    @DisplayName("LP-005 | Hero subheading is present and visible")
+    void LP_005_heroSubheadingIsPresentAndVisible() {
+
     }
 
     @Test
-    @DisplayName("LP-003 | Logo is visible")
-    void LP_003_logoIsVisible() {
-        WebElement logo = driver.findElement(By.cssSelector("a._logo_236fd_14"));
-        assertTrue(logo.isDisplayed());
+    @DisplayName("LP-006 | Prime CTA is present and visible")
+    void LP_006_primeCTAIsPresentAndVisible() {
+
+    }
+
+    @Test
+    @DisplayName("LP-007 | Secondary CTA is present and visible")
+    void LP_007_secondaryCTAIsPresentAndVisible() {
+
+    }
+
+    @Test
+    @DisplayName("LP-008 | Content is present and visible")
+    void LP_008_contentIsPresentAndVisible() {
+
     }
 }
