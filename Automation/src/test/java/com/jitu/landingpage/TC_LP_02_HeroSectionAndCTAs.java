@@ -19,7 +19,6 @@ public class TC_LP_02_HeroSectionAndCTAs extends BaseTest {
     @Test
     @DisplayName("LP-006 | Hero headline visible")
     void LP_006_heroHeadlineVisible(){
-        // [CHANGED] wait until element is visible before reading text (page renders content dynamically)
         WebElement heroHeadline = wait.until(
             ExpectedConditions.visibilityOfElementLocated(By.cssSelector("h1[class*='_heroTitle']"))
         );
@@ -29,7 +28,6 @@ public class TC_LP_02_HeroSectionAndCTAs extends BaseTest {
     @Test
     @DisplayName("LP-007 | Hero subheading is present and visible")
     void LP_007_heroSubheadingIsPresentAndVisible() {
-        // [CHANGED] wait until element is visible before reading text (page renders content dynamically)
         WebElement Subhero = wait.until(
             ExpectedConditions.visibilityOfElementLocated(By.cssSelector("p[class*='_heroTagline']"))
         );
@@ -39,7 +37,6 @@ public class TC_LP_02_HeroSectionAndCTAs extends BaseTest {
     @Test
     @DisplayName("LP-008 | Prime CTA is present and visible")
     void LP_008_primeCTAIsPresentAndVisible() {
-        // [CHANGED] wait until button is visible before asserting display state and text
         WebElement btnPrime = wait.until(
             ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href='/dashboard']"))
         );
@@ -50,7 +47,6 @@ public class TC_LP_02_HeroSectionAndCTAs extends BaseTest {
     @Test
     @DisplayName("LP-009 | Secondary CTA is present and visible")
     void LP_009_secondaryCTAIsPresentAndVisible() {
-        // [CHANGED] wait until button is visible before asserting display state and text
         WebElement btnSecondary = wait.until(
             ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[href='#how']"))
         );
