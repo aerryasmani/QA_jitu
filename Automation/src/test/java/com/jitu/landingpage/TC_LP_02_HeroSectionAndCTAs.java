@@ -49,5 +49,3 @@ public class TC_LP_02_HeroSectionAndCTAs extends BaseTest {
         assertTrue(btnSecondary.isDisplayed());
         assertEquals("See how it works", btnSecondary.getText());
     }
-
-}
